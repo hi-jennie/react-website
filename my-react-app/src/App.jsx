@@ -4,11 +4,13 @@ import Food from "./Food.jsx";
 import Card from "./Card.jsx";
 import Button from "./Button/Button.jsx";
 import Family from "./Family.jsx";
+import UserGreeting from "./UserGreeting.jsx";
 
 function App() {
 
     return (
         <>  
+            <UserGreeting isLoggedIn={false} userName='Shirley'/>
             <Family name="Shirley" age={24} relation='Mom'/>
             <Family name="Rustin" age={27} relation='Dad'/>
             <Family name="Aaoby" age={24} relation='Son'/>
