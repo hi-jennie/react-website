@@ -3,11 +3,16 @@ import Footer from "./Footer.jsx";
 import Food from "./Food.jsx";
 import Card from "./Card.jsx";
 import Button from "./Button/Button.jsx";
+import Family from "./Family.jsx";
 
 function App() {
 
     return (
         <>  
+            <Family name="Shirley" age={24} relation='Mom'/>
+            <Family name="Rustin" age={27} relation='Dad'/>
+            <Family name="Aaoby" age={24} relation='Son'/>
+            <Family name="Turkey" age={24} relation='Son'/>
             <Button/>
             <Card/>
             <Card/>
