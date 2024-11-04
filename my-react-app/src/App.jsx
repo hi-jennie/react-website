@@ -10,6 +10,7 @@ import ProfilePicture from "./ProfilePicture.jsx";
 import MyComponent from "./MyComponent.jsx";
 import Counter from "./Counter.jsx";
 import InputComponent from "./InputComponent.jsx";
+import ColorPicker from "./ColorPicker.jsx";
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
 
     return (
         <>  
+            <ColorPicker/><br/>
             <InputComponent/>
             <Counter/>
             <MyComponent/>

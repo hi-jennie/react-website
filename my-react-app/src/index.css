@@ -1,3 +1,23 @@
+.color-picker-container,
+.color-choose {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.color-display {
+  border: 2px solid lightpink;
+}
+
+
+.color-picker-container label{
+  font-size: 1em;
+  color: hsl(0,0%,25%);
+}
+.color-picker-container input {
+  height: 30px;
+  width: 100px;
+}
 
 .counter-container {
   border:2px solid lightpink;
