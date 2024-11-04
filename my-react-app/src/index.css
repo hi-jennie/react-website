@@ -56,6 +56,11 @@
   display: inline-block;
   /*默认 display 值是 block。这些元素会独占一行，可以设置宽度和高度，并会自动填满容器宽度。*/
 }
+.profile-image {
+  width:60%;
+  height: auto;
+  margin-bottom: 10px;
+}
 
 .card .profile-image {
   width:60%;

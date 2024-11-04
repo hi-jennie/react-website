@@ -3,9 +3,11 @@ import Footer from "./Footer.jsx";
 import Food from "./Food.jsx";
 import Card from "./Card.jsx";
 import Button from "./Button/Button.jsx";
+import {Button3} from "./Button/Button.jsx";
 import Family from "./Family.jsx";
 import UserGreeting from "./UserGreeting.jsx";
 import List from "./List.jsx";
+import ProfilePicture from "./ProfilePicture.jsx";
 
 function App() {
 
@@ -24,7 +26,9 @@ function App() {
                         {id: 6, name: 'tomato', calories: 22}];
 
     return (
-        <>     
+        <>  
+            <ProfilePicture/>   
+            <Button3/>
             {fruits.length>0 && <List category='Fruit'/>}
             {fruits.length>0 && <List items={fruits} category='Fruit'/>}
             {vegetables.length> 0 && <List items={vegetables} category='Vegetables'/>}
