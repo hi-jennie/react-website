@@ -4,7 +4,20 @@ import styles from './Button.module.css';
 
 // module styles is for individual components
 function Button() {
-  return <button className={styles.button1}>Click me!</button>;
+  // const handleClick = () => console.log('Button clicked!');
+  // return <button onClick={handleClick} className={styles.button1}>Click me!</button>;
+  // pay attention the reason why we use arrow function in handleClick2
+  // because onclick accepts a function and not a function call
+  let count = 0;
+  const handleClick2 = (name) => {
+    if(count < 3){
+      console.log('Button clicked!', name);
+      count++;
+    }else {
+      console.log(`${name}, stop clicking me!`);
+    }
+  };
+  return <button onClick={() => handleClick2('Shirley')} className={styles.button1}>Click me!</button>;
 }
 
 // inline styles is good for any small component with minimal styling
