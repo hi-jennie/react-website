@@ -2,12 +2,13 @@ import Header from "./Header.jsx";
 import Footer from "./Footer.jsx";
 import Food from "./Food.jsx";
 import Card from "./Card.jsx";
-import Button from "./Button/Button.jsx";
-import {Button3} from "./Button/Button.jsx";
+import {Button3, Button} from "./Button/Button.jsx";
 import Family from "./Family.jsx";
 import UserGreeting from "./UserGreeting.jsx";
 import List from "./List.jsx";
 import ProfilePicture from "./ProfilePicture.jsx";
+import MyComponent from "./MyComponent.jsx";
+import Counter from "./Counter.jsx";
 
 function App() {
 
@@ -27,6 +28,8 @@ function App() {
 
     return (
         <>  
+            <Counter/>
+            <MyComponent/>
             <ProfilePicture/>   
             <Button3/>
             {fruits.length>0 && <List category='Fruit'/>}

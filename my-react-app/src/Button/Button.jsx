@@ -3,7 +3,7 @@ import styles from './Button.module.css';
 // external styles is great for global styles
 
 // module styles is for individual components
-function Button() {
+export function Button() {
   // const handleClick = () => console.log('Button clicked!');
   // return <button onClick={handleClick} className={styles.button1}>Click me!</button>;
   // pay attention the reason why we use arrow function in handleClick2
