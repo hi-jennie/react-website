@@ -1,4 +1,28 @@
 
+.list-category {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: hsl(0,0%,25%);
+  margin-bottom: 10px;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 5px;
+  background-color: antiquewhite; 
+  width: 200px;
+}
+
+.list-items li {
+
+  font-size: 1.5em;
+  color: hsl(0,0%,30%);
+  margin-bottom: 10px;
+}
+
+.list-items li:hover {
+  color: hsl(0,0%,50%);
+  text-decoration: underline;
+}
+
 .welcome-message {
   background-color: green;
   border-radius: 10px;
