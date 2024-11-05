@@ -4,10 +4,16 @@ function Counter() {
     const [count, setCount] = useState(0);
 
     const decrement = () => {
-        setCount(count - 1);
+        // every line will be executed in order, so each setCount(prevCount => prevCount - 1) will subtract 1 from the previous value.this is all about updater function.
+        setCount(prevCount => prevCount - 1);
+        setCount(prevCount => prevCount - 1);
+        setCount(prevCount => prevCount - 1);
     }
 
     const increment = () => {
+        // When the increment function is called, count stays fixed, so each setCount(count + 1) only adds 1 to the original value.
+        setCount(count + 1);
+        setCount(count + 1);
         setCount(count + 1);
     }
 
