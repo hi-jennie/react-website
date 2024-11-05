@@ -15,6 +15,7 @@ import UpdateObject from "./UpdateObject.jsx";
 import UpdateArray from "./UpdateArray.jsx";
 import UpdateObjectArray from "./UpdateObjectArray.jsx";
 import TodoList from "./TodoList.jsx";
+import UseEffect from "./UseEffect.jsx";
 
 function App() {
 
@@ -34,6 +35,7 @@ function App() {
 
     return (
         <>  
+            <UseEffect/>
             <TodoList/>
             <UpdateObjectArray/>
             <UpdateArray/>
