@@ -16,6 +16,8 @@ import UpdateArray from "./UpdateArray.jsx";
 import UpdateObjectArray from "./UpdateObjectArray.jsx";
 import TodoList from "./TodoList.jsx";
 import UseEffect from "./UseEffect.jsx";
+import DigitalClock from "./DigitalClock.jsx";
+
 
 function App() {
 
@@ -35,6 +37,7 @@ function App() {
 
     return (
         <>  
+            <DigitalClock/>
             <UseEffect/>
             <TodoList/>
             <UpdateObjectArray/>

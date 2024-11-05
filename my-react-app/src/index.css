@@ -1,3 +1,28 @@
+/* clock container */
+.clock-container {
+  background: linear-gradient(135deg, lightblue, lavenderblush);
+  height: 200px;
+  width: 400px;
+  /*100px 上下边距 auto 水平居中于父元素中*/
+  margin: 100px auto;
+  position: relative;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.1);
+}
+.clock-container p {
+  position: absolute;
+  top: 45%;
+  left: 35%;
+  font-family: Arial;
+  color: gray;
+  margin:0;
+  font-size: 25px;
+}
+
+/* clock container */
+
+
 /* todo list */
 /* 整体容器 */
 .todo-list-container {
