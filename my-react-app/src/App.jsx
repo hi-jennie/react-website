@@ -11,6 +11,7 @@ import MyComponent from "./MyComponent.jsx";
 import Counter from "./Counter.jsx";
 import InputComponent from "./InputComponent.jsx";
 import ColorPicker from "./ColorPicker.jsx";
+import UpdateObject from "./UpdateObject.jsx";
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
 
     return (
         <>  
+            <UpdateObject/>
             <ColorPicker/><br/>
             <InputComponent/>
             <Counter/>
