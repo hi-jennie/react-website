@@ -1,3 +1,111 @@
+/* todo list */
+/* 整体容器 */
+.todo-list-container {
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* 标题样式 */
+.todo-list-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* 输入框和按钮容器 */
+.input-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* 输入框样式 */
+.input-bar {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* 添加按钮样式 */
+.add-button {
+  padding: 8px 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.add-button:hover {
+  background-color: #45a049;
+}
+
+/* 任务列表样式 */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* 单个任务项容器 */
+.task-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 8px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* 任务文本 */
+.task-container span {
+  flex: 1;
+  font-size: 16px;
+  color: #333;
+}
+
+/* 操作按钮样式 */
+.task-container button {
+  margin-left: 5px;
+  padding: 5px 8px;
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.task-container button:hover {
+  background-color: #ccc;
+}
+
+/* delete 按钮的特殊样式 */
+.task-container button:first-of-type {
+  background-color: #f44336;
+  color: white;
+}
+
+.task-container button:first-of-type:hover {
+  background-color: #e53935;
+}
+/*/ todo list /*/
+
+
+
+/*
+color-picker
+*/
+
 .color-picker-container,
 .color-choose {
   display: flex;

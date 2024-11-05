@@ -14,6 +14,7 @@ import ColorPicker from "./ColorPicker.jsx";
 import UpdateObject from "./UpdateObject.jsx";
 import UpdateArray from "./UpdateArray.jsx";
 import UpdateObjectArray from "./UpdateObjectArray.jsx";
+import TodoList from "./TodoList.jsx";
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
 
     return (
         <>  
+            <TodoList/>
             <UpdateObjectArray/>
             <UpdateArray/>
             <UpdateObject/>
