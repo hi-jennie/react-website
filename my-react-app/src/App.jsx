@@ -13,6 +13,7 @@ import InputComponent from "./InputComponent.jsx";
 import ColorPicker from "./ColorPicker.jsx";
 import UpdateObject from "./UpdateObject.jsx";
 import UpdateArray from "./UpdateArray.jsx";
+import UpdateObjectArray from "./UpdateObjectArray.jsx";
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
 
     return (
         <>  
+            <UpdateObjectArray/>
             <UpdateArray/>
             <UpdateObject/>
             <ColorPicker/><br/>
