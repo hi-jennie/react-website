@@ -1,3 +1,26 @@
+.boxA { 
+  width: 400px;
+  margin: 100px auto;
+  background-color: lightblue;
+  box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  border: 1px solid ;
+}
+
+.boxB {
+  background-color: lightpink;
+  box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  border: 1px solid;
+}
+
+.boxC {
+  background-color: lightyellow;
+  box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  border: 1px solid ;
+}
+
 /* clock container */
 .clock-container {
   background: linear-gradient(135deg, lightblue, lavenderblush);
