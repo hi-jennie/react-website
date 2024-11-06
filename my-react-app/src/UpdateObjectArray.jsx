@@ -31,17 +31,20 @@ function UpdateObjectArray() {
         setRelation(e.target.value);
     }
 
-    return (<div className='family-member-container'>
+    return (
+    <div className='family-member-container'>
         <h2>Our Family members</h2>
         <ul>
             {Families.map((member, index) => (
-                <li key={index} onClick={() => handleRemoveFamily(index)}>{member.relation} {member.name} {member.age}</li>
+                <li key={index} onClick={() => handleRemoveFamily(index)}>{member.relation} {member.name} {member.age} years old</li>
             ))}
         </ul>
-        <input type='text' value={relation} onChange={handleRelationChange} placeholder='Enter the relationship'/>
-        <input type='text' value={name} onChange={handleNameChange} placeholder='Enter name'/>
-        <input type='number' value={age} onChange={handleAgeChange}/>
-        <button onClick={handleAddFamily}>add</button>
+        <div className='family-input-container'>
+            <input type='text' value={relation} onChange={handleRelationChange} placeholder='Relationship'/>
+            <input type='text' value={name} onChange={handleNameChange} placeholder='Name'/>
+            <input type='number' value={age} onChange={handleAgeChange}/>
+            <button onClick={handleAddFamily}>add</button>
+        </div>
     </div>)
 }
 

@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import {useState} from 'react';
 
 function InputComponent() {
     const [name, setName] = useState('Shirley');
@@ -29,7 +29,7 @@ function InputComponent() {
     }
 
     return (
-        <div>
+        <div className='delivery-food-container'>
             <input value={name} onChange={handleNameChange}/>
             <p>Name: {name}</p>
 

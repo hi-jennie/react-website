@@ -18,7 +18,7 @@ function UpdateObject() {
         setCar(c => ({...c, year: e.target.value}));
     }
     return (
-        <div>
+        <div className='car-container'>
             <p>Your Favorite Car: {car.name} {car.model} Made in {car.year}</p>
             <input type='text' value={car.name} onChange={handleNameChange}/>
             <input type='text' value={car.model} onChange={handleModelChange}/>

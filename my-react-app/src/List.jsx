@@ -10,14 +10,18 @@ function List(props) {
     // const lowCaloriesFruits = fruits.filter(fruit => fruit.calories < 60);
 
     const listItems = items.map(item => 
-                        (<li key={item.id}> 
+                        (<li className='food-item' key={item.id}> 
                         {item.name}: &nbsp;
                         <b>{item.calories}</b></li>))
 
-    return (<>
+    return (
+        <div className='foodList-container'>
             <p className='list-category'>{category}</p>
             <ul className='list-items'>{listItems}</ul>
-            </>   
+        </div>
+
+
+  
     )
 }
 

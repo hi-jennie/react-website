@@ -14,7 +14,7 @@ function  UpdateArray() {
     }
 
     return (
-        <div>
+        <div className='food-container'>
             <p>What to eat today</p>
             <ul>
                 {foods.map((food, index)=>(

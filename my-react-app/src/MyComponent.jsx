@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import {useState} from 'react';
 
 function MyComponent() {
     let [name, setName] = useState('Guest');
@@ -18,7 +18,7 @@ function MyComponent() {
     }
 
     return (
-        <div>
+        <div className='student-container'>
             <p>Name: {name}</p>
             <button onClick={setStudentName}>set name</button>
 

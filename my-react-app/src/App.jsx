@@ -55,17 +55,14 @@ function App() {
             <MyComponent/>
             <ProfilePicture/>   
             <Button3/>
-            {fruits.length>0 && <List category='Fruit'/>}
             {fruits.length>0 && <List items={fruits} category='Fruit'/>}
             {vegetables.length> 0 && <List items={vegetables} category='Vegetables'/>}
-            <UserGreeting isLoggedIn={false} userName='Shirley'/>
+            <UserGreeting isLoggedIn={true} userName='Shirley'/>
             <Family name="Shirley" age={24} relation='Mom'/>
             <Family name="Rustin" age={27} relation='Dad'/>
-            <Family name="Aaoby" age={24} relation='Son'/>
+            <Family name="Aoby" age={24} relation='Son'/>
             <Family name="Turkey" age={24} relation='Son'/>
             <Button/>
-            <Card/>
-            <Card/>
             <Card/>
             <Header></Header>
             <Food/>

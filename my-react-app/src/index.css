@@ -153,6 +153,16 @@
 
 /* clock container */
 
+/* window size */
+.window-size-container {
+  width: 400px;
+  margin: 50px auto;
+  text-align: center;
+  background-color: #e6f7ff;
+  border-radius: 20px;
+  padding: 10px;
+}
+/* window size */
 
 /* todo list */
 /* 整体容器 */
@@ -256,81 +266,457 @@ ul {
 }
 /*/ todo list /*/
 
+.family-member-container {
+  background-color: #fef6e4;
+  border: 2px solid #f9dcc4;
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 20px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Comic Sans MS', cursive;
+}
+
+.family-member-container h2 {
+  color: #ff7f50;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.family-member-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.family-member-container li {
+  padding: 8px;
+  background-color: #ffecd1;
+  border-radius: 8px;
+  margin: 4px 0;
+  display: flex;
+  justify-content: space-between;
+  color: #5a5a5a;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.family-member-container li:hover {
+  transform: scale(1.05);
+  background-color: #ffdbac;
+}
+
+.family-input-container {
+  display: flex;
+  gap: 8px;
+  margin-top: 20px;
+  justify-content: space-around;
+}
+
+.family-input-container input {
+  padding: 6px;
+  border: 1px solid #ff7f50;
+  border-radius: 6px;
+  font-size: 14px;
+  width: 100px;
+}
+
+.family-input-container button {
+  background-color: #ff7f50;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.family-input-container button:hover {
+  background-color: #ff5733;
+}
+
+/* what to eat tody*/
+.food-container {
+  background-color: #eaf4e2; /* Light green for a natural feel */
+  border: 2px solid #c7dfb5;
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 20px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+.food-container p {
+  color: #6a9f6d;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.food-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.food-container li {
+  padding: 10px;
+  background-color: #c7e4c0;
+  border-radius: 8px;
+  margin: 5px 0;
+  font-size: 16px;
+  color: #4b6d4b;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.food-container li:hover {
+  transform: scale(1.05);
+  background-color: #b4d7ad;
+}
+
+.food-container input {
+  padding: 8px;
+  margin-top: 10px;
+  border: 1px solid #6a9f6d;
+  border-radius: 6px;
+  font-size: 14px;
+  width: 80%;
+  box-sizing: border-box;
+}
+
+.food-container button {
+  background-color: #81c784;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.food-container button:hover {
+  background-color: #66bb6a;
+}
+/* what to eat tody*/
 
 
-/*
-color-picker
-*/
+/* favorite car*/
+.car-container {
+  background-color: #f0f4f8; /* Light, clean background color */
+  color: #333; /* Dark text for readability */
+  border: 1px solid #d1d9e0; /* Subtle border for structure */
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 500px;
+  margin: 20px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
 
-.color-picker-container,
+.car-container p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #0073e6; /* Fresh blue accent color */
+  text-align: center;
+}
+
+.car-container input[type='text'],
+.car-container input[type='number'] {
+  width: 90%;
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #b0bec5; /* Lighter border for input */
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #333;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.car-container input:focus {
+  outline: none;
+  border-color: #0073e6; /* Blue highlight on focus */
+  box-shadow: 0 0 5px rgba(0, 115, 230, 0.3); /* Soft blue glow */
+  transition: box-shadow 0.3s ease;
+}
+
+.car-container input::placeholder {
+  color: #aaa; /* Light placeholder text */
+}
+/* favorite car*/
+
+/* color-picker */
+
+.color-picker-container {
+  background-color: #f9f2f5; /* Soft pastel pink for a warm touch */
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  color: #6a515e; /* Soft muted text color */
+}
+
+.color-picker-container h2 {
+  font-size: 24px;
+  margin-bottom: 16px;
+  color: #925e7a; /* Slightly darker pastel for the title */
+}
+
+.color-display {
+  background-color: #e4d8dd; /* Subtle contrast to make the selected color stand out */
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.color-display p {
+  color: #ffffff; /* White text for high contrast */
+  font-size: 18px;
+}
+
 .color-choose {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.color-display {
-  border: 2px solid lightpink;
+.color-choose label {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #6a515e; /* Same soft color as other text */
 }
 
-
-.color-picker-container label{
-  font-size: 1em;
-  color: hsl(0,0%,25%);
+.color-choose input[type='color'] {
+  cursor: pointer;
+  padding: 5px;
+  border: none;
+  background-color: #f4e1e7; /* Gentle shade to harmonize with the container */
+  border-radius: 6px;
 }
-.color-picker-container input {
-  height: 30px;
-  width: 100px;
-}
+/* color-picker */
 
+/* counter */
 .counter-container {
-  border:2px solid lightpink;
-  width: 250px;
-  height: auto;
-  text-align: center;
-  padding-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f4f8; /* Light gray-blue for a calming effect */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  max-width: 300px;
+  margin: 20px auto;
 }
 
 .count-display {
-  font-family: Arial;
-  font-size: 20px;
+  font-size: 48px;
+  font-weight: bold;
+  color: #333;
+  margin: 20px 0;
+}
+
+.de-button,
+.in-button,
+.count-button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.de-button {
+  background-color: #f8d7da; /* Soft red for decrement */
+  color: #721c24;
+}
+
+.in-button {
+  background-color: #d4edda; /* Soft green for increment */
+  color: #155724;
 }
 
 .count-button {
-  background-color: lightblue;
-  margin: 5px;
-  height: 30px;
+  background-color: #cce5ff; /* Soft blue for reset */
+  color: #004085;
+}
+
+.de-button:hover,
+.in-button:hover,
+.count-button:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+/* counter */
+
+/* delivery food */
+.delivery-food-container {
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #fafafa;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.delivery-food-container p {
+  margin: 8px 0;
   font-weight: bold;
+  color: #555;
+}
+
+.delivery-food-container input[type="text"],
+.delivery-food-container input[type="number"],
+.delivery-food-container select,
+.delivery-food-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+.delivery-food-container textarea {
+  height: 60px;
+  resize: none;
+}
+
+.delivery-food-container select {
+  cursor: pointer;
+  background-color: #f4f4f4;
+}
+
+.delivery-food-container label {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.delivery-food-container label input[type="radio"] {
+  margin-right: 8px;
+}
+
+.delivery-food-container p {
+  color: #444;
+  font-size: 16px;
+}
+
+.delivery-food-container button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.delivery-food-container button:hover {
+  background-color: #45a049;
+}
+/* delivery food */
+
+/* is student*/
+.student-container {
+  max-width: 350px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fefaf3;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  color: #555;
+  text-align: center;
+}
+
+.student-container p {
+  font-size: 16px;
+  color: #444;
+  margin: 10px 0;
+}
+
+.student-container button {
+  display: block;
+  width: 80%;
+  padding: 8px;
+  margin: 12px auto;
+  background-color: #ffcfdf;
+  color: #5d5d5d;
+  font-size: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.student-container button:hover {
+  background-color: #ffc0d3;
+}
+
+/* food list container */
+.foodList-container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #e6f7e9; /* Soft green background for a fresh look */
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  font-family: Arial, sans-serif;
+  color: #333;
 }
 
 .list-category {
-  font-size: 2.5em;
+  font-size: 18px;
+  color: #2e7d32; /* Darker green for category title */
   font-weight: bold;
-  color: hsl(0,0%,25%);
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   text-align: center;
-  border: 3px solid;
-  border-radius: 5px;
-  background-color: antiquewhite; 
-  width: 200px;
 }
 
-.list-items li {
-
-  font-size: 1.5em;
-  color: hsl(0,0%,30%);
-  margin-bottom: 10px;
+.list-items {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
-.list-items li:hover {
-  color: hsl(0,0%,50%);
-  text-decoration: underline;
+.food-item {
+  font-size: 16px;
+  padding: 8px;
+  background-color: #ffffff;
+  border: 1px solid #c8e6c9;
+  border-radius: 6px;
+  margin: 8px 0;
+  color: #4caf50;
+  display: flex;
+  justify-content: space-between;
 }
 
+.food-item b {
+  color: #d32f2f; /* Red for calorie count to stand out */
+}
+/* food list container */
 .welcome-message {
   background-color: green;
   border-radius: 10px;
   width:200px;
+  margin: 50px auto;
   padding:20px;
 }
 
@@ -341,23 +727,42 @@ color-picker
   padding:20px;
 }
 
+/* family car container*/
 .family {
-  border: 1px solid hsl(0,0%,80%);
-  border-radius: 10px;
-  box-shadow: 5px 5px 5px hsla(0,0%,0%,0.1);
-  width: 200px;
-  text-align: center;
+  max-width: 300px;
+  margin: 15px auto;
+  padding: 15px;
+  background-color: #fdf5e6; /* Soft cream background */
+  border: 1px solid #f7d9c4;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Georgia', serif;
+  color: #5d4037; /* Warm brown text color */
 }
 
+.family p {
+  font-size: 16px;
+  margin: 5px 0;
+  line-height: 1.6;
+}
+
+.family p:first-child {
+  font-weight: bold;
+  font-size: 18px;
+  color: #a66e54; /* Slightly darker color for the name */
+}
+
+
+/* profile image */
 .card {
   border:1px solid hsl(0,0%,80%);
   border-radius: 10px;
   box-shadow: 5px 5px 5px hsla(0,0%,0%,0.1);
   padding: 20px;
-  margin: 10px;
+  margin: 10px auto;
   text-align: center;
   max-width: 300px;
-  display: inline-block;
+
   /*默认 display 值是 block。这些元素会独占一行，可以设置宽度和高度，并会自动填满容器宽度。*/
 }
 .profile-image {
@@ -384,4 +789,4 @@ color-picker
   font-family: Arial;
   color: hsl(0,0%,30%);
 }
-
+/* profile image */

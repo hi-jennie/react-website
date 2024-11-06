@@ -17,8 +17,12 @@ function UseEffect() {
     // },[width, height]);
 
     return (<>
-        <p>Width: {width}</p>
-        <p>Height: {height}</p>
+        <div className='window-size-container'>
+            <h2>Window Size</h2>
+            <p className='window-size'>Width: {width}</p>
+            <p className='window-size'>Height: {height}</p>
+        </div>
+
     </>)
 }
 

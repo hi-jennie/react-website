@@ -24,8 +24,8 @@ function Counter() {
     return (
         <div className='counter-container'>
             <p className='count-display'>{count}</p>
-            <button onClick={decrement} className='count-button'>decrement</button>
-            <button onClick={increment} className='count-button'>increment</button>
+            <button onClick={decrement} className='de-button'>decrement</button>
+            <button onClick={increment} className='in-button'>increment</button>
             <button onClick={reset} className='count-button'>reset</button>
         </div>
     )
