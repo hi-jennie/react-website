@@ -1,25 +1,88 @@
-.boxA { 
-  width: 400px;
-  margin: 100px auto;
-  background-color: lightblue;
-  box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 20px;
-  border: 1px solid ;
+/* useRef container */
+.re-render-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffebf0;
+  border: 2px dashed #ffa1c5;
+  border-radius: 15px;
+  width: 300px;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.button1 {
+  background-color: #ff77a9;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+
+.button1:hover {
+  transform: scale(1.1);
+  background-color: #ff99bb;
+}
+
+.input1 {
+  padding: 8px;
+  border: 1px solid #ff99bb;
+  border-radius: 8px;
+  width: 100%;
+  outline: none;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+}
+
+.input1:focus {
+  border-color: #ff77a9;
+  box-shadow: 0 0 8px rgba(255, 119, 169, 0.4);
+}
+/* useRef container */
+
+
+
+
+/* create-context */
+.boxA {
+  width: 80%;
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #d3eafc; /* Soft blue */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+  border: 1px solid #a8d0f7;
+  transition: transform 0.2s ease;
 }
 
 .boxB {
-  background-color: lightpink;
-  box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 20px;
-  border: 1px solid;
+  padding: 15px;
+  background-color: #fde4e1; /* Soft pink */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  border: 1px solid #f7c3c0;
 }
 
 .boxC {
-  background-color: lightyellow;
-  box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 20px;
-  border: 1px solid ;
+  padding: 10px;
+  background-color: #fef6d7; /* Soft yellow */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  border: 1px solid #f3e0a1;
 }
+
+/* Optional: add hover effect to .boxA for interactivity */
+.boxA:hover {
+  transform: scale(1.02);
+}
+
+/* use-context */
 
 /* clock container */
 .clock-container {

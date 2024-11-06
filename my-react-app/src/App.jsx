@@ -18,6 +18,7 @@ import TodoList from "./TodoList.jsx";
 import UseEffect from "./UseEffect.jsx";
 import DigitalClock from "./DigitalClock.jsx";
 import ComponentA from "./use-context/ComponentA.jsx";
+import UseRef from "./UseRef.jsx";
 
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
 
     return (
         <>  
+            <UseRef/>
             <ComponentA/>
             <DigitalClock/>
             <UseEffect/>
