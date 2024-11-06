@@ -19,6 +19,7 @@ import UseEffect from "./UseEffect.jsx";
 import DigitalClock from "./DigitalClock.jsx";
 import ComponentA from "./use-context/ComponentA.jsx";
 import UseRef from "./UseRef.jsx";
+import StopWatch from "./StopWatch.jsx";
 
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
 
     return (
         <>  
+            <StopWatch/>
             <UseRef/>
             <ComponentA/>
             <DigitalClock/>
